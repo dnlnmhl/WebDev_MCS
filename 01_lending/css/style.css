@@ -89,6 +89,7 @@ figure img {
 	left: 0px;
 	top: 200px;
 	background-size: cover;
+
 }
 footer {
 	background: #E5E000;
@@ -101,6 +102,9 @@ footer {
 	text-align: right;
 	color: white;
 	display: block;
+	position: relative;
+	bottom: -60px;
+	right: 0;
 }
 #footer-logo {
 	width: 205px;
