@@ -1,0 +1,141 @@
+@import url(reset.css);
+
+body	{
+	width: 1440px;
+	height: 3359px;
+}
+a {
+	color: red;
+	text-decoration: none;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: white;
+	color: red;
+	font-family: Arial;
+}
+.header-section {
+	display: flex;
+	align-items: center;
+	max-width: 1440px;
+}
+.header_item {
+	padding: 25px, 10px;
+	font-size: 50px;
+	line-height: 57px;
+}
+.One {
+padding-left: 850px;
+} 
+.top-slide {
+	background-image: url(../img/evian_origins_logo.png);
+	width: 1440px;
+	height: 950px;
+}
+.top-slide h2 {
+	font-size: 100px;
+	line-height: 115px;
+	color: red;
+	align-items: center;
+	text-align: center;
+	padding-top: 450px;
+}
+#evian	{
+	padding: 150px;
+}
+#evian .container-top p{
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+	color: black;
+	text-align: left;
+	padding: 24px;
+}
+
+.container-top {
+	max-width: 1400px;
+	margin: 0 auto;
+	border: 3px solid #F8BFC7;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+.container-midle {
+	max-width: 1400px;
+	margin-top: 156px;
+	border: 3px solid #F8BFC7;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+#evian .evian-flex	{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#evian .evian-flex >.evian-item {
+	width: 281px;
+	text-align: center;
+}
+#evian .evian-flex >.evian-item >img{
+	margin: 70px 0 0;
+}
+#evian .evian-flex >.evian-item >.name{
+	margin: 70px 0 16px;
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+	color: black;
+}
+.container-midle {
+	width: 1040px;
+	height: 280px;
+	display: flex;
+	justify-content: center;
+	border: 3px solid #F8BFC7;
+	box-sizing: border-box;
+	border-radius: 20px;
+	margin: 156px, auto;
+}
+.foto-midle {
+	width: 101px;
+	height: 220px;
+	background-image: url(../img/glass.png);
+	margin-top: 30px;
+	background-repeat: no-repeat;
+
+}
+.text-midle {
+	text-align: left;
+	width: 749px;
+	height: 220px;
+	margin-top: 30px;
+}
+.text-midle > p{
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+	color: black;
+	align-items: center;
+	padding-left: 80px;
+	padding-top: 30;
+	padding-right: 30px;
+	padding-bottom: 30px;
+}
+footer {
+	width: 1440px;
+	height: 140px;
+	display: flex;
+	align-items: center;
+	background-color: #F8BFC7;
+	color: white;
+}
+.text-footer {
+font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 57px;
+	padding-left: 50px;
+}
