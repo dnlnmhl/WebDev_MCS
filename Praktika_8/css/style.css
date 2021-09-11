@@ -1,0 +1,109 @@
+@import url(reset.css);
+
+body {
+	width: 1440px;
+	height: 2426px;
+	background-color: white;
+	
+	
+}
+.header {
+	width: 1440px;
+	height: 160px;
+	left: 0px;
+	top: 0px;
+	background-color: #FEB700;
+	position: absolute;
+	display: block;
+}
+.logo {
+	text-align: center;
+	font-family: Times New Roman;
+	font-size: 50px;
+	line-height: 57px;
+	text-align: center;
+	padding-top: 51px;
+	padding-bottom: 50px;
+}
+.one {
+	width: 400px;
+	height: 1874px;
+	left: 70px;
+	top: 230px;
+	border: 1px solid #000000;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+}
+img {
+	width: 400px;
+	height: 600px;
+}
+p {
+	font-family: Times New Roman;
+	font-size: 20px;
+	line-height: 23px;
+	color: black;
+}
+
+.text-one {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 33px;
+	padding-bottom: 33px;
+	box-sizing: border-box;
+}
+.text-two {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 33px;
+	padding-bottom: 33px;
+}
+.text-there {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 33px;
+	padding-bottom: 33px;
+}
+.healthiest {
+
+}
+.two {
+	width: 400px;
+	height: 1920px;
+	left: 520px;
+	top: 230px;
+	border: 1px solid #000000;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+}
+.there {
+	width: 400px;
+	height: 1966px;
+	left: 970px;
+	top: 230px;
+	border: 1px solid #000000;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+}
+footer {
+	width: 1440px;
+	height: 160px;
+	left: 0px;
+	top: 2266px;
+	display: block;
+	background-color: #FEB700;
+	position: absolute;
+	font-family: Times New Roman;
+	font-size: 50px;
+	line-height: 57px;
+	text-align: center;
+}
+.data {
+	text-align: left;
+}
+.name {
+	text-align: right;
+}
