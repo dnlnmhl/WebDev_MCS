@@ -1,0 +1,9 @@
+@import url(reset.css);
+
+img[src="img/Canada.jpg"] {
+	width: 300px;
+}
+
+img[alt="Флаг"] {
+	width: 600px;
+}
